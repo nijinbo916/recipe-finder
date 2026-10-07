@@ -92,7 +92,10 @@ async function searchMeals() {
     resultHeading.classList.add("hidden");
     errorContainer.innerHTML = `
       <p>Something went wrong. Please try again later.</p>
-      <p>Check your network connection — this page needs to reach themealdb.com.</p>`;
+      <p>Check your network connection — this page needs to reach themealdb.com.</p>
+      ${typeof location !== "undefined" && location.protocol === "file:"
+        ? "<p>You opened this file directly. Please serve it over http (e.g. python -m http.server 8080).</p>"
+        : ""}`;
     errorContainer.classList.remove("hidden");
   }
 }
