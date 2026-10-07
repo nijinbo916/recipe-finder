@@ -5,9 +5,11 @@
 
 ## 在线预览
 
-- **Vercel 线上地址**：<待部署后填写>
-- **GitHub Pages 备用地址**：<待开启后填写>
-- **GitHub 仓库地址**：<待填写>
+- **Vercel 线上地址**：<https://recipe-finder-hazel-three.vercel.app/>
+- **GitHub Pages 备用地址**：<https://nijinbo916.github.io/recipe-finder/>
+- **GitHub 仓库地址**：<https://github.com/nijinbo916/recipe-finder>
+
+> 部署方式：本地代码经 SSH 推送到 GitHub 仓库，由 Vercel 导入并自动构建部署，GitHub Pages 作为国内直连备用入口。
 
 > 本页依赖 TheMealDB 公共接口，需要联网才能查到数据。
 
